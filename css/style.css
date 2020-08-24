@@ -714,6 +714,7 @@
     
     .icon-close{
         fill: currentColor;
+        color: #000000;
     }
 
     .btn-close{
@@ -727,11 +728,16 @@
         
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 50%;
+        cursor: pointer;
 
         
         color: var(--dark-color);
+        background: transparent;
     }
 
+        .icon-close:hover{
+            fill: var(--accent-color);
+        }
 
     .form{
        margin: 0;
@@ -759,6 +765,15 @@
     .form-label{
         display: block;
         margin-bottom: 4px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        letter-spacing: 0.01em;
+
+        color: var(--main-color);
+        
 
     }
 
@@ -801,6 +816,9 @@
     height: 120px;
     resize: none;
     padding: 12px 16px;
+
+    
+    
 }
 
 .form-for-text{
@@ -847,7 +865,13 @@
 }
 
 .checkbox-link{
-    color: #2196F3;;
+    margin-left: 3px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
 }
 
 .btn-submit{
