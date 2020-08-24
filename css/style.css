@@ -735,7 +735,7 @@
         background: transparent;
     }
 
-        .icon-close:hover{
+        .btn-close:hover .icon-close{
             fill: var(--accent-color);
         }
 
